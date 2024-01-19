@@ -1,0 +1,4 @@
+name: Towny-TacticsMC
+version: '${version}'
+main: com.ruskserver.townytacticsmc.main
+api-version: '1.20'

@@ -1,5 +1,6 @@
 plugins {
     id 'java'
+    id 'org.jetbrains.kotlin.jvm' version '2.0.0-Beta3'
 }
 
 group = 'com.ruskserver'
@@ -15,10 +16,19 @@ repositories {
         name = "sonatype"
         url = "https://oss.sonatype.org/content/groups/public/"
     }
+    maven {
+        name = 'glaremasters repo'
+        url = 'https://repo.glaremasters.me/repository/towny/'
+    }
 }
 
 dependencies {
     compileOnly "org.spigotmc:spigot-api:1.20.1-R0.1-SNAPSHOT"
+    compileOnly 'com.palmergames.bukkit.towny:towny:0.100.1.0'
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
+    implementation 'com.google.code.gson:gson:2.10.1'
+    implementation("org.jetbrains.kotlin:kotlin-reflect:1.7.20")
+    implementation 'org.jetbrains.kotlin:kotlin-stdlib'
 }
 
 def targetJavaVersion = 17
@@ -43,5 +53,15 @@ processResources {
     filteringCharset 'UTF-8'
     filesMatching('plugin.yml') {
         expand props
+    }
+}
+
+
+
+jar {
+    duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+
+    from {
+        configurations.runtimeClasspath.collect { it.isDirectory() ? it : zipTree(it) }
     }
 }

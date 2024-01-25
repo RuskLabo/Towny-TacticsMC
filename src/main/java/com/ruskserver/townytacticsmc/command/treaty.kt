@@ -10,6 +10,9 @@ object treaty: CommandExecutor{
         if (args.isEmpty()){
             sender.sendMessage("/treaty help")
         }
+        if (args.size == 1 && args[1].contains("new")){
+            
+        }
         return true
     }
 }

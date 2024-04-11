@@ -13,3 +13,4 @@ Purpur及びPaper上で動作するTacticsMC用のTownyの拡張及び追加機�
 ・当リポジトリのコードの著作権はRuskLaboが所有しています。
 
 ## ダウンロード方法
+[DevBuilds](https://github.com/RuskLabo/Towny-TacticsMC/actions)からjarファイルをダウンロードしてください

@@ -3,6 +3,7 @@ version: '${version}'
 main: com.ruskserver.townytacticsmc.main
 api-version: '1.20'
 author: RuskLabo
+depend: [Towny]
 commands:
   treaty:
     permission: towny.tacticsmc.treaty

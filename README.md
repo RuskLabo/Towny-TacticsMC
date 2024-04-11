@@ -9,8 +9,8 @@ Purpur及びPaper上で動作するTacticsMC用のTownyの拡張及び追加機�
 - [Towny](https://github.com/TownyAdvanced/Towny)
 
 ## 利用条件
-- ・ソースコードの規約等は[GPL-2.0](https://github.com/RuskLabo/Towny-TacticsMC/blob/main/LICENSE)に従ってください。
-- ・当リポジトリのコードの著作権はRuskLaboが所有しています。
+- ソースコードの規約等は[GPL-2.0](https://github.com/RuskLabo/Towny-TacticsMC/blob/main/LICENSE)に従ってください。
+- 当リポジトリのコードの著作権はRuskLaboが所有しています。
 
 ## ダウンロード方法
 [DevBuilds](https://github.com/RuskLabo/Towny-TacticsMC/actions)からjarファイルをダウンロードしてください

@@ -3,7 +3,7 @@ Purpur及びPaper上で動作するTacticsMC用のTownyの拡張及び追加機�
 
 サポートしているバージョン: **1.20.1~**
 
-** ※Towny-TacticsMCの国旗設定機能は[Dynmap-Towny](https://github.com/TownyAdvanced/Dynmap-Towny)の一部コード改変版でのみ機能します。**
+**※Towny-TacticsMCの国旗設定機能は[Dynmap-Towny](https://github.com/TownyAdvanced/Dynmap-Towny)の一部コード改変版でのみ機能します。**
 
 ## 前提プラグイン
 [Towny](https://github.com/TownyAdvanced/Towny)

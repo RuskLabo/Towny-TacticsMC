@@ -16,8 +16,8 @@ class main: JavaPlugin() {
     private val town_flag = StringDataField("townytacticsmc_flag", "")
     override fun onEnable() {
         println("initialize Towny-TacticsMC....")
-        val helloCommand = getCommand("treaty")
-        if(helloCommand != null){
+        val treatyCommand = getCommand("treaty")
+        if(treatyCommand != null){
             getCommand("treaty")?.setExecutor(treaty)
             getCommand("treaty")?.setTabCompleter(treaty_tab)
             TownyCommandAddonAPI.addSubCommand(CommandType.TOWN_SET, "flag", set_flag)
